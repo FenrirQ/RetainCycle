@@ -9,7 +9,7 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-    var previousVC: BaseViewController?
+    weak var previousVC: BaseViewController?
     weak var nextVC: BaseViewController?
 
     override func viewDidLoad() {
